@@ -90,7 +90,7 @@
 			<version>1</version>
 		</dependency>
 				
-	<!-- Servlet -->
+		<!-- Servlet -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -147,11 +147,16 @@
            <artifactId>spring-test</artifactId>
             <version>${org.springframework-version}</version>
         </dependency>
-         <!--  jason -->
+        <!--  jason -->
         <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
         <version>2.8.4</version>
+        </dependency>
+        <dependency>
+        <groupId>org.bgee.log4jdbc-log4j2</groupId>
+        <artifactId>log4jdbc-log4j2-jdbc4</artifactId>
+        <version>1.16</version>
         </dependency>
 	</dependencies>
     <build>
