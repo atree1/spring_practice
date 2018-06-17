@@ -28,7 +28,7 @@ public class BoardDAOImpl implements BoardDAO {
 	public BoardVO read(Integer bno) throws Exception {
 		// TODO Auto-generated method stub
 		
-		return session.selectOne(namespace+".read"+bno);
+		return session.selectOne(namespace+".read",bno);
 	}
 
 	@Override
