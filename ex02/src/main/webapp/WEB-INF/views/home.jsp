@@ -11,7 +11,8 @@
     <!--  general form elements -->
     <div class="box">
     <div class="box-header with-border">
-    <h3 class="box-title">HOME PAGE</h3>
+    
+    <a href="/sboard/list"><font size="100">게시판</font></a>
     </div>
     </div>
     </div><!-- /.col(left) -->
