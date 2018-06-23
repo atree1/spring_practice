@@ -16,7 +16,6 @@ import org.zerock.domain.PageMaker;
 import org.zerock.domain.SearchCriteria;
 import org.zerock.service.BoardService;
 
-
 @Controller
 @RequestMapping("/sboard/*")
 public class SearchBoardController {
@@ -107,4 +106,20 @@ public class SearchBoardController {
 
     return "redirect:/sboard/list";
   }
+
+  // @RequestMapping(value = "/list", method = RequestMethod.GET)
+  // public void listPage(@ModelAttribute("cri") SearchCriteria cri,
+  // Model model) throws Exception {
+  //
+  // logger.info(cri.toString());
+  //
+  // model.addAttribute("list", service.listCriteria(cri));
+  //
+  // PageMaker pageMaker = new PageMaker();
+  // pageMaker.setCri(cri);
+  //
+  // pageMaker.setTotalCount(service.listCountCriteria(cri));
+  //
+  // model.addAttribute("pageMaker", pageMaker);
+  // }
 }

@@ -14,6 +14,7 @@
 					<h3 class="box-title">REGISTER BOARD</h3>
 				</div>
 				<!-- /.box-header -->
+
 				<form role="form" method="post">
 					<div class="box-body">
 						<div class="form-group">
@@ -51,4 +52,3 @@
 <!-- /.content-wrapper -->
 
 <%@include file="../include/footer.jsp"%>
-
